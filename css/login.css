@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+}
+.nav-foo {
+  text-decoration: none;
+  color: white;
+}
+.logofiado {
+  left: 47%;
+  position: absolute;
+  top: 10px;
+}
+#loginForm_id {
+  display: inline-block;
+  position: relative;
+  top: 126px;
+}
+#footer {
+  height: 100px;
+  position: absolute;
+}
+.mainform {
+  position: absolute;
+  text-align: center;
+  top: 198px;
+  width: 100%;
+}
+#div_footer {
+  height: 10px;
+  background-color: black;
+}

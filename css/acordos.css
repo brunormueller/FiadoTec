@@ -1,0 +1,81 @@
+.card:hover {
+  box-shadow: 0 8px 50px #23232333;
+  transform: scale(1.03);
+  background: #ffc948;
+}
+.card {
+  transition: all 0.3s;
+  max-width: 540px;
+  position: relative;
+  background: #ffd574;
+  left: 300px;
+  margin-right: -7px;
+}
+.iconBack {
+  height: 40px;
+  width: 40px;
+  margin: 11px 8px 0px 0px;
+  color: black;
+}
+.iconBack:hover {
+  color: rgb(199, 175, 43);
+}
+.cards.sai {
+  transform: translate(-414px, -49px);
+  background: white;
+}
+
+.cards {
+  position: fixed;
+  top: 400px;
+  left: 200px;
+  display: flex;
+  height: 182.5px;
+  width: 524px;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.5s cubic-bezier(0.47, 0, 0.75, 0.72);
+}
+#companyName {
+  font-size: 58px;
+}
+.valor > h3 {
+  font-size: 30px;
+  margin-top: 40px;
+  width: 530px;
+  text-align: center;
+}
+.adicional > h3 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+.adicional {
+  width: 530px;
+}
+#dados_acordos {
+  width: 530px;
+  transition: all 0.5s cubic-bezier(0.47, 0, 0.75, 0.72);
+}
+.checkRadio {
+  width: 60px;
+  margin-left: 125px;
+  justify-content: space-between;
+}
+.divider {
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.totMes > h3 {
+  text-align: center;
+  font-size: 27px;
+}
+.totMes > h4 {
+  font-weight: 700;
+  font-size: 27px;
+  margin-top: -24px;
+  color: red;
+  text-align: center;
+}
