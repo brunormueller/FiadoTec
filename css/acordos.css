@@ -9,6 +9,7 @@
   position: relative;
   background: #ffd574;
   left: 300px;
+  margin-top: 20px;
   margin-right: -7px;
 }
 .iconBack {
@@ -55,7 +56,9 @@
   width: 530px;
 }
 #dados_acordos {
+ margin-top: -50px;
   width: 530px;
+  opacity: 0;
   transition: all 0.5s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 .checkRadio {
@@ -73,6 +76,17 @@
   font-size: 27px;
 }
 .totMes > h4 {
+  font-weight: 700;
+  font-size: 27px;
+  margin-top: -24px;
+  color: red;
+  text-align: center;
+}
+.totRef > h3{
+  text-align: center;
+  font-size: 27px;
+}
+.totRef > h4{
   font-weight: 700;
   font-size: 27px;
   margin-top: -24px;

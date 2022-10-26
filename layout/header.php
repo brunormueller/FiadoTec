@@ -31,6 +31,7 @@
             <a href="" class="py-2 d-none d-md-inline-block header-text">Sobre nós</a>
             <a href="" class="py-2 d-none d-md-inline-block header-text">Institucional</a>
             <a href="../pages/acordos.php" class="py-2 d-none d-md-inline-block header-text">Acordos</a>
+            <a href="../pages/AprovAcordos.php" class="py-2 d-none d-md-inline-block header-text">Aprovações pendentes</a>
             <div class="py-2 d-none d-md-inline-block"></div>
         </nav>
         

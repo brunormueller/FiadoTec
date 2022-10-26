@@ -1,8 +1,8 @@
 .toggleWrapper {
   position: absolute;
-  top: 70px;
+  top: 26px;
   overflow: hidden;
-  margin-left: -50px;
+  margin-left: -130px;
   padding: 0 200px;
   transform: translate3d(-50%, -50%, 0);
   color: white;

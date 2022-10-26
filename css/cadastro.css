@@ -39,3 +39,15 @@ input {
   background-color: #d9d9d9;
   
 }
+.profile{
+  margin-top: -60px;
+}
+.profile > a{
+  width:65px;
+  border-radius: 14px;
+
+}
+.profile > a:hover{
+background: #f5f2f2;
+} 
+    

@@ -3,6 +3,8 @@ session_start();
 
 $user = $_SESSION['id_usuario'];
 $nome = $_SESSION['nome_usuario'];
+
+
 ?>
 
 <!DOCTYPE html>
@@ -23,13 +25,26 @@ $nome = $_SESSION['nome_usuario'];
 
 <body>
     <?php include('../layout/header.php'); ?>
+   
     <h1>Bem vindo, <?php echo $nome?></h1>
-
-    <div class="col-md-4 offset-md-8 col-sm-3 col-xs-2 mt-5" style="width: 341px;">
+    <ul class="offset-md-11 profile" >
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="../img/customax.png" id="pic_profile" width="40" height="40" class="rounded-circle">
+        </a>
+        <div class="dropdown-menu dropdown-menu-dark">
+            <a class="dropdown-item" href="#">Dashboard</a>
+            <a class="dropdown-item" href="#">Edit Profile</a>
+            <li><hr class="dropdown-divider"></li>
+            <a class="dropdown-item" href="../pages/login/login.php">Log Out</a>
+        </div>
+        </li>
+    </ul>
+    <div class="col-md-4 offset-md-8 col-sm-3 col-xs-2 " style="width: 341px;margin-top: 120px;">
         <div class="linha"></div>
         <h2>Cobrar</h2>
         <h3>Para efetuar a cobrança do cliente CREDTECH, escaneie o QR CODE.</h3>
-        <?php include_once('../layout/dark-light.php'); ?>
+        <?php include_once('../layout/dark-light.php'); 
+        ?>
         <div class="qr-code"></div>
         <button class="btn-qr shadow" type="button">ESCANEAR</button>
     </div>

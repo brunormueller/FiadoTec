@@ -1,0 +1,15 @@
+.iconBack {
+    height: 40px;
+    width: 40px;
+    margin: 11px 8px 0px 0px;
+    color: black;
+  }
+  .iconBack:hover {
+    color: rgb(199, 175, 43);
+  }
+  .proposta{
+    width: 380px;
+    text-align: center;
+    margin-left: 30px;
+    
+  }
